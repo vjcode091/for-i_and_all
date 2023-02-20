@@ -10,6 +10,7 @@ body {
 
 h1 {
     color: rgba(176, 193, 199, 0.897);
+    text-shadow: 0 0 28px solid rgba(84, 103, 110, 0.897);
 }
 
 .line {
