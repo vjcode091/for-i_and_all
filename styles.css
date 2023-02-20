@@ -8,6 +8,10 @@ body {
     background: rgb(199, 120, 210);
 }
 
+.line {
+    border-bottom: 2px solid rgb(132, 127, 133);
+}
+
 form {
     width: 320px;
     padding: 20px;
@@ -15,6 +19,10 @@ form {
     text-align: center;
     border-radius: 30px;
     background: rgba(65, 44, 68, 0.541);
+    position: relative;
+    left: 79vh;
+    right: 70vh;
+    top: 12vh;
 }
 
 input {
@@ -45,4 +53,37 @@ button:hover {
     background: rgba(57, 100, 47, 0.747);
     box-shadow: 0 0 22px rgba(45, 36, 48, 0.788);
     margin: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    .line {
+        font-size: 10px;
+        height: 12vh;
+    }
+    body {
+        width: auto;
+        text-align: left
+    }
+    form {
+        font-size: 10px;
+        width: 200px;
+        position: relative;
+        left: 79px;
+        padding: 3px;
+    }
+    input {
+        font-size: 10px;
+        width: 140px;
+        padding: 3px;
+    }
+    button {
+        width: 89px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    #image {
+        width: 120px;
+        margin-top: 17vh;
+        margin-left: 20vh;
+    }
 }
