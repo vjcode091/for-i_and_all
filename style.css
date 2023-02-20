@@ -9,12 +9,12 @@ body {
 }
 
 h1 {
-    color: rgba(176, 193, 199, 0.897);
-    text-shadow: 0 0 28px solid rgba(84, 103, 110, 0.897);
+    color: rgba(225, 234, 238, 0.966);
+    text-shadow: 0 0 28px solid rgba(220, 223, 224, 0.897);
 }
 
 .line {
-    border-bottom: 2px solid rgb(132, 127, 133);
+    border-bottom: 3px solid rgb(132, 127, 133);
 }
 
 form {
