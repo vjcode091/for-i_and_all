@@ -5,44 +5,71 @@
 }
 
 body {
-    background: rgb(199, 120, 210);
+    background: linear-gradient(rgba(45, 45, 120, 0.5), rgba(120, 111, 122, 0.3));
 }
 
 form {
+    width: 350px;
+    margin: 35vh auto;
+    background: linear-gradient(rgba(100, 221, 100, 0.2), rgba(122, 69, 111, 0.8), rgba(22, 90, 122, 0.4));
+    padding: 13px;
+    align-items: center;
+}
+
+.content {
     width: 320px;
-    padding: 20px;
-    box-shadow: 0 0 25px rgba(77, 77, 134, 0.9);
     text-align: center;
-    border-radius: 30px;
-    background: rgba(65, 44, 68, 0.541);
+    padding: 9px;
+    align-items: center;
+    background: rgba(78, 78, 133, 0.226);
 }
 
 input {
-    width: 225px;
-    padding: 6px;
-    color: azure;
-    background: rgba(31, 35, 39, 0.658);
-    font-size: 19px;
+    width: 290px;
+    padding: 10px;
+    color: #e793e3;
+    background: rgba(42, 42, 65, 0.863);
     font-style: italic;
     font-weight: 400;
-    border-radius: 9px;
-    margin: 3px;
+    border-radius: 14px;
+    margin: 4px;
 }
 
 button {
-    background: rgba(124, 175, 209, 0.658);
-    width: 95px;
-    padding: 8px;
-    border-radius: 6px;
-    border-color: none;
+    width: 55px;
+    background: rgba(45, 45, 120, 0.5);
+    padding: 5px;
+    cursor: pointer;
     color: antiquewhite;
-    font-weight: 600;
-    margin-bottom: 10px;
+    font-weight: 400;
+    margin-top: 7px;
 }
 
-input:hover,
-button:hover {
-    background: rgba(57, 100, 47, 0.747);
-    box-shadow: 0 0 22px rgba(45, 36, 48, 0.788);
-    margin: 4px;
+.check {
+    width: 309;
+    text-align: right;
+}
+
+#checkbox {
+    width: 13px;
+}
+
+.pop {
+    position: absolute;
+    width: 314px;
+    padding: 23px;
+    background: rgba(34, 120, 56, 0.8);
+    color: rgb(119, 216, 233);
+    margin-top: -84vh;
+    left: 70vh;
+    text-align: center;
+    transform: translate(-30%, -45%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-pop {
+    visibility: visible;
+    top: 40%;
+    transform: translate(-45%, -50%) scale(1);
 }
