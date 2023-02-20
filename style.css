@@ -8,6 +8,10 @@ body {
     background: rgb(13, 13, 14);
 }
 
+h1 {
+    color: rgba(176, 193, 199, 0.897);
+}
+
 .line {
     border-bottom: 2px solid rgb(132, 127, 133);
 }
